@@ -1,15 +1,14 @@
 "use client";
 
-import Articles from "@/pages/Articles/Articles";
-import Search from "@/pages/Search/Search";
-import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
+import ArticlesPageContent from "./ArticlesPageContent";
 
 const ArticlesPage = () => {
-  const searchParams = useSearchParams();
-  const searchTerm = searchParams.get("search") || "";
-  const filter = searchParams.get("filter") || "";
-
-  return <>{searchTerm ? <Search /> : <Articles initialFilter={filter} />}</>;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ArticlesPageContent />
+    </Suspense>
+  );
 };
 
 export default ArticlesPage;

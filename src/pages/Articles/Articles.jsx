@@ -5,7 +5,7 @@ import styles from "@/pages/Articles/Article.module.scss";
 import Card from "@/components/Card/Card";
 import { ARTICLES } from "@/data/index";
 import { useState, useEffect, useRef } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const Articles = ({ initialFilter }) => {
   const [filter, setFilter] = useState(initialFilter || "none");
