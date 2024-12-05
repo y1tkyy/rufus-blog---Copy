@@ -16,17 +16,7 @@ const ArticlePage = ({ params }) => {
     return <div>Artículo no encontrado</div>;
   }
 
-  return (
-    <div>
-      <h1>{article.title}</h1>
-      <p>{article.paragraph}</p>
-      <p>Autor: {article.author}</p>
-      <p>
-        Fecha: {article.date.day} {article.date.month}, {article.date.year}
-      </p>
-      <img src={article.image.src} alt={article.title} />
-    </div>
-  );
+  return <div>Article</div>;
 };
 
 export default ArticlePage;
