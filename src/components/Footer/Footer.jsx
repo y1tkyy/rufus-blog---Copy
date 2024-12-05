@@ -36,11 +36,11 @@ const Footer = () => {
             className="mb-5 hidden md:block"
           />
           <p className="mb-4 text-white text-base leading-5 max-w-72 md:max-w-96 text-center">
-            Take the first step towards unleashing your brand's potential
+            Take the first step towards unleashing your brand&apos;s potential
           </p>
           <Button variant="white" label="Contact us"></Button>
         </div>
-        <div className=" w-full py-16 bg-purple-dark rounded-t-[4rem] ">
+        <div className="w-full py-16 bg-purple-dark rounded-t-[4rem] ">
           <div className="grid md:grid-cols-footer max-w-5xl m-auto">
             <div className="w-full flex justify-center lg:justify-end ">
               <div className="w-fit mb-[4.5rem] md:mr-28">
@@ -81,16 +81,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" py-5 bg-purple-dark mt-[2px] md:m-0 md:flex md:justify-center w-full leading-5  text-xs font-helvetica text-white">
-        <div className="relative max-w-7xl sm:mx-20 space-y-4 md:space-y-0 md:flex  md:justify-between md:w-full">
+      <div className="py-5 bg-purple-dark mt-[2px] md:m-0 md:flex md:justify-center w-full leading-5 text-xs font-helvetica text-white">
+        <div className="relative max-w-7xl sm:mx-20 space-y-4 md:space-y-0 md:flex md:justify-between md:w-full">
           <div className="absolute hidden md:block w-full h-[2px] bg-purple bottom-10"></div>
           <div>
-            <p className="text-center ">
+            <p className="text-center">
               &copy; 2024 Rufus Social. All rights reserved. Powered by
-              Programon 
+              Programon
             </p>
           </div>
-          <div className="flex justify-center gap-4 underline ">
+          <div className="flex justify-center gap-4 underline">
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms of Service</Link>
           </div>
